@@ -18,9 +18,13 @@ body{
     background-color: #d7d7d7;
 }
 
-.Yeah{
+#Yeah{
     height: 230px;
     width: 200px;
+    transition: border 0.1s linear;    
+}
+.con-borde{
+    border: 2px solid red;
 }
 
 /*Parte 2*/
@@ -47,6 +51,7 @@ body{
 .ImgPkm{
     width: 200px;
     height: 200px;
+    border: solid 2px black;
 }
 
 .p3{
@@ -55,5 +60,30 @@ body{
 }
 
 .p4{
+    text-align: center;
+}
+
+/*Parte 3*/
+#Parte_3{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Contraseña3{
+    text-align: center;
+}
+
+.Selectores{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: auto;
+    height: auto;
+}
+
+.final{
     text-align: center;
 }
