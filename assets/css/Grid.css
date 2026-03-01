@@ -1,5 +1,27 @@
 body{
     display: grid;
-    grid-template-areas: 
-    "";
+    height: 100vh;
+    grid-template-areas:
+    "a a a a a"
+    "a a a a a"
+    "a a a a a"
+    "b b b b b"
+    "b b b b b"
+    "b b b b b"
+    "c c c c c"
+    "c c c c c"
+    "c c c c c";
 }
+
+#Parte_1{
+    grid-area: a;
+}
+
+#Parte_2{
+    grid-area: b;
+}
+
+#Parte_3{
+    grid-area: c;
+}
+

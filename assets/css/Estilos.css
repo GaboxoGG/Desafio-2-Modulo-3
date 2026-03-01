@@ -1,3 +1,59 @@
 body{
-    background-color: aqua;
+    margin: 0px;
+}
+
+#Parte_1{
+    background-color: #d7d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#Parte_2{
+    background-color: #ffffff;
+}
+
+#Parte_3{
+    background-color: #d7d7d7;
+}
+
+.Yeah{
+    height: 230px;
+    width: 200px;
+}
+
+/*Parte 2*/
+.Ejercicio2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px;
+}
+
+.p1{
+    text-align: center;
+}
+
+.p2{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: auto;
+    height: auto;
+}
+
+.ImgPkm{
+    width: 200px;
+    height: 200px;
+}
+
+.p3{
+    text-align: center;
+    justify-content: space-around;
+}
+
+.p4{
+    text-align: center;
 }
