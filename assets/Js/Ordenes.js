@@ -11,7 +11,20 @@ boton.addEventListener('click', alternarBorde)
 imagen.addEventListener('click', alternarBorde);
 
 //Parte 2
+function CalcularStickers() {
+    const s1 = parseInt(document.getElementById('sticker1').value) || 0;
+    const s2 = parseInt(document.getElementById('sticker2').value) || 0;
+    const s3 = parseInt(document.getElementById('sticker3').value) || 0;
 
+    const Total = s1 + s2 + s3;
+    const resultado = document.getElementById('C-Stickers');
+
+    if (Total <= 10) {
+        resultado.textContent = `Llevas ${Total} stickers`;
+    } else {
+        resultado.textContent = "Llevas demasiados stickers"
+    }
+}
 
 //Parte 3
 for (let i = 1; i <= 9; i++) {
