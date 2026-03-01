@@ -14,6 +14,12 @@ imagen.addEventListener('click', alternarBorde);
 
 
 //Parte 3
+for (let i = 1; i <= 9; i++) {
+    document.getElementById("Cantidad1").innerHTML += `<option value="${i}">${i}</option>`
+    document.getElementById("Cantidad2").innerHTML += `<option value="${i}">${i}</option>`
+    document.getElementById("Cantidad3").innerHTML += `<option value="${i}">${i}</option>`
+}
+
 function verificar() {
     const N1 = document.getElementById("Cantidad1").Value;
     const N2 = document.getElementById("Cantidad2").Value;
